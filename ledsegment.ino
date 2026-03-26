@@ -41,11 +41,11 @@ void loop() {
   lastState = currentState;
 
   if(count == 0) {
-    drawNumber(HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, LOw);
+    drawNumber(HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, LOW);
   }
 
   else if(count== 1) {
-    drawNumber(HIGH, HIGH, LOW, LOW, LOW, LOW, LOw);
+    drawNumber(LOW, HIGH, HIGH, LOW, LOW, LOW, LOW);
   }
 
   else if(count == 2) {
